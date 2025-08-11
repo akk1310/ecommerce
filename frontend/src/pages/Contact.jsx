@@ -35,7 +35,9 @@ const Contact = () => {
           <p className="text-gray-500">
             Learn more about our teams & <br />How to open a Store on our Platform.
           </p>
-          <button className="border cursor-pointer border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500"> <a target="_blank" href="https://ecommerce-admin-ochre-gamma.vercel.app">Explore Stores</a> </button>
+          <a target="_blank" href="https://ecommerce-admin-ochre-gamma.vercel.app">
+          <div className="border cursor-pointer border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500"> Explore Stores </div>
+          </a>
         </div>
       </div>
       <NewsletterBox />
