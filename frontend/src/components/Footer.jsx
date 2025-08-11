@@ -39,9 +39,10 @@ const Footer = () => {
             <li>care.india@gonbgo.com</li>
             <li className="cursor-pointer">
               {" "}
-              <a target="_blank" href="https://ecommerce-admin-ochre-gamma.vercel.app"></a> Register your{" "}
+              <a target="_blank" href="https://ecommerce-admin-ochre-gamma.vercel.app"> Register your{" "}
               <span className="font-semibold">store </span> now at{" "}
-              <b>GrabNGo </b>{" "}
+              <b>GrabNGo </b> </a>{" "}
+              
             </li>
           </ul>
         </div>
