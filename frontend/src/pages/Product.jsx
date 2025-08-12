@@ -24,6 +24,10 @@ const Product = () => {
     fetchProductData();
   }, [productId, products]);
 
+    useEffect(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, [productId]);
+
   return productData ? (
     <div className="border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100">
       {/* Product Data */}
